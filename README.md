@@ -6,6 +6,10 @@ illumination effects and texture flattening.
 
 In Image Inpainting, The idea is to reduce the color mismatch between the source and target when we want to bring a region of image from a source image to a region in target image for seamless look. Let us call the known function in target image as f* and the region of target image in which compositing is being done as Ω. The unknown function in Ω is called f and the boundary of Ω is dΩ. We want to solve this problem in gradient domain than working simply in intensity domain. We want the gradient of the composite inside Ω to look as much as possible like the gradient of source image, S. Also, the composite must match the target image on the boundary of Ω. So mathematically
 
+![alt tag](https://github.com/apurvmmmec/Poisson-Image-Inpainting/blob/master/resources/eq1.png)
+
+![alt tag](https://github.com/apurvmmmec/Poisson-Image-Inpainting/blob/master/resources/eq2.png)
+
 
 # Seamless Cloning
 I have taken an example of blending my eye on my palm. We firstof all select the left eye mask through roipoly tool and then tell in code, the position at which we want to paste this on target image which is palm image in this case. When the mask region is blended with the target image, source image act as guiding vector for all pixels inside the mask. The pixels inside mask that lie on boundary get the value of target.
