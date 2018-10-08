@@ -20,3 +20,7 @@ The difference between seamless blending and gradient mixing is that in seamless
 # Color Pop Effect, making everything monochrome except the Sunflower
 ![alt tag](https://github.com/apurvmmmec/Poisson-Image-Inpainting/blob/master/resources/sunflower.png)
 
+# Painting the wall of Living Room
+![alt tag](https://github.com/apurvmmmec/Poisson-Image-Inpainting/blob/master/resources/livingRoom.png)
+
+
