@@ -12,6 +12,9 @@ I have taken an example of blending my eye on my palm. We firstof all select the
 The difference between seamless blending and gradient mixing is that in seamless blending, the gradient of target image does not appear inside the region omega except boundaries of omega. But there are cases when we want to paste a region of semi- transparent image or image with holes on top of a textured background and don’t want to lose the details of background in the region of holes. In such case, we use the technique of mixed gradients where the guidance field at any pixel (x,y) is chosen not necessarily from the Laplacian of source but also from target image depending upon which gradient is stronger at that point. One thing which we need to be taken care while using this approach is that region of details in target image should only lie in holes of source image, or else if high gradients of both source and target are present at some place, detail of either of them will be lost.
 ![alt tag](https://github.com/apurvmmmec/Poisson-Image-Inpainting/blob/master/resources/iLoveUCL.png)
 
+# Cool Effects achieved using Poisson Image Blending
+
+# Dolphin in the pool infront of Taj Mahal
 ![alt tag](https://github.com/apurvmmmec/Poisson-Image-Inpainting/blob/master/resources/dolphinInTajmahal.png)
-![alt tag](https://github.com/apurvmmmec/Poisson-Image-Inpainting/blob/master/resources/sunflower.png)
-![alt tag](https://github.com/apurvmmmec/Poisson-Image-Inpainting/blob/master/resources/livingRoom.png)
+
+
