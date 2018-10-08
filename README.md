@@ -17,4 +17,6 @@ The difference between seamless blending and gradient mixing is that in seamless
 # Dolphin in the pool infront of Taj Mahal
 ![alt tag](https://github.com/apurvmmmec/Poisson-Image-Inpainting/blob/master/resources/dolphinInTajmahal.png)
 
+# Color Pop Effect, making everything monochrome except the Sunflower
+![alt tag](https://github.com/apurvmmmec/Poisson-Image-Inpainting/blob/master/resources/sunflower.png)
 
